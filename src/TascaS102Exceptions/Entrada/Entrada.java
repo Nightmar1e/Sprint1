@@ -1,4 +1,4 @@
-package Entrada;
+package TascaS102Exceptions.Entrada;
 
 //import java.util.Scanner;
 //import java.util.InputMismatchException;
