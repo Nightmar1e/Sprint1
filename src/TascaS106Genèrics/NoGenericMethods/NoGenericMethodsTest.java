@@ -2,7 +2,6 @@ package TascaS106Genèrics.NoGenericMethods;
 
 public class NoGenericMethodsTest {
     public static void main(String[] args) {
-        // Test by initializing the arguments in different orders
         NoGenericMethods test1 = new NoGenericMethods("1", "2", "3");
         NoGenericMethods test2 = new NoGenericMethods("3", "1", "2");
         NoGenericMethods test3 = new NoGenericMethods("2", "3", "1");
