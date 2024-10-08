@@ -1,52 +1,40 @@
 package TascaS101HerènciaiPolimorfisme.cottxe;
 
-class Cotxe {
-    // Attributes
-    public static final String marca = "Toyota";  // Static and final attribute (constant for all instances)
-    public static String model = "Corolla";       // Static attribute (shared by all instances but can be modified)
-    public final int potencia;                    // Final attribute (constant for each instance, set in constructor)
+class Car {
+    public static final String marca = "Toyota";
+    public static String model = "Corolla";
+    public final int potencia;
 
-    // Constructor to initialize the final attribute
-    public Cotxe(int potencia) {
+    public Car(int potencia) {
         this.potencia = potencia;
     }
 
-    // Non-static method
     public void accelerar() {
         System.out.println("El vehicle està accelerant.");
     }
 
-    // Static method
     public static void frenar() {
         System.out.println("El vehicle està frenant.");
     }
 }
 
-// Main class to demonstrate the usage
 public class Main {
     public static void main(String[] args) {
-        // Demonstrating the static final attribute
-        System.out.println("Marca del cotxe (static final): " + Cotxe.marca); // Always the same
+        System.out.println("Marca del Car (static final): " + Car.marca);
 
-        // Demonstrating the static attribute
-        System.out.println("Model del cotxe (static): " + Cotxe.model);  // Shared between all instances
+        System.out.println("Model del Car (static): " + Car.model);
 
-        // Creating an instance of Cotxe
-        Cotxe cotxe1 = new Cotxe(120);
-        System.out.println("Potència del cotxe 1 (final): " + cotxe1.potencia);  // Can only be set at construction
+        Car Car1 = new Car(120);
+        System.out.println("Potència del Car 1 (final): " + Car1.potencia);
 
-        // Changing the static attribute
-        Cotxe.model = "Camry";  // Modifies the shared model for all instances
+        Car.model = "Camry";
 
-        // Creating another instance of Cotxe
-        Cotxe cotxe2 = new Cotxe(150);
-        System.out.println("Potència del cotxe 2 (final): " + cotxe2.potencia);
+        Car Car2 = new Car(150);
+        System.out.println("Potència del Car 2 (final): " + Car2.potencia);
 
-        // Notice the static attribute has changed for all instances
-        System.out.println("Model del cotxe (static): " + Cotxe.model);
+        System.out.println("Model del Car (static): " + Car.model);
 
-        // Demonstrating method calls
-        cotxe1.accelerar();  // Non-static method requires an instance
-        Cotxe.frenar();      // Static method can be called directly from the class
+        Car1.accelerar();
+        Car.frenar();
     }
 }
