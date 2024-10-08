@@ -1,5 +1,4 @@
-package TascaS107Annotations.Worker;
-
+package TascaS107Annotations.Children;
 
 class OnsiteWorker extends Worker {
     private static double benzina = 50.0;
@@ -12,4 +11,10 @@ class OnsiteWorker extends Worker {
     public double calculateSalary(int hoursWorked) {
         return (hoursWorked * pricePerHour) + benzina;
     }
+
+    @Deprecated
+    public static double calculateOldFuelCost() {
+        return benzina * 0.8;
+    }
+
 }
