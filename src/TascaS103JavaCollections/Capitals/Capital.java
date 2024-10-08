@@ -8,16 +8,18 @@ import java.util.*;
 
 public class Capital {
 
-    private static final int NUMBER_OF_QUESTIONS = 10;
+    private static final int NUMBER_OF_QUESTIONS = 50;
     private static Map<String, String> countryCapitalMap = new HashMap<>();
 
     public static void main(String[] args) {
         readCountriesFromFile();
 
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Enter your name: ");
-        String userName = scanner.nextLine();
-
+        String userName;
+        do {
+            System.out.print("Enter your name: ");
+            userName = scanner.nextLine();
+        } while (userName.trim().isEmpty());  // scanner would keep asking for a name if not entered
         int score = 0;
 
         List<String> countries = new ArrayList<>(countryCapitalMap.keySet());
