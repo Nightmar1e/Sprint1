@@ -3,7 +3,7 @@ package TascaS108Lambdas.StartWithA;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class Exercise1 {
+public class Exercise21 {
 
     public static List<String> filterStringsWithO(List<String> strings) {
         return strings.stream()
