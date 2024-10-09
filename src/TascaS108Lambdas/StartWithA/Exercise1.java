@@ -8,8 +8,7 @@ public class Exercise1 {
     public static List<String> filterStringsWithO(List<String> strings) {
         return strings.stream()
 //                .map(String::toUpperCase)
-                .filter(s -> s.startsWith("A"))
-                .filter(s -> s.length() == 3)
+                .filter(s -> s.startsWith("A") && s.length() == 3)
                 .collect(Collectors.toList());
     }
 
