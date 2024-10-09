@@ -8,7 +8,7 @@ public class Exercise1 {
     // in this case, we are using the map method to convert all the strings to lowercase
     public static List<String> filterStringsWithO(List<String> strings) {
         return strings.stream()
-//                .map(String::toLowerCase)
+                .map(String::toLowerCase)
                 .filter(s -> s.contains("o"))
                 .collect(Collectors.toList());
     }
