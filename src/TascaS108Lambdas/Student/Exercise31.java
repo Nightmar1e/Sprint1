@@ -2,35 +2,8 @@ package TascaS108Lambdas.Student;
 
 import java.util.List;
 
-
-class Student {
-    private String name;
-    private int age;
-    private String year;
-    private double grade;
-
-    public Student(String name, int age, String year, double grade) {
-        this.name = name;
-        this.age = age;
-        this.year = year;
-        this.grade = grade;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public int getAge() {
-        return age;
-    }
-
-    public String getYear() {
-        return year;
-    }
-
-    public double getGrade() {
-        return grade;
-    }
+// Intellij suggested to use record instead of class, who am I to say no? :)
+record Student(String name, int age, String year, double grade) {
 
     @Override
     public String toString() {
@@ -60,28 +33,28 @@ public class Exercise31 {
         );
 
         System.out.println("Names and ages of all students:");
-        students.forEach(student -> System.out.println(student.getName() + " - " + student.getAge()));
+        students.forEach(student -> System.out.println(student.name() + " - " + student.age()));
 
         System.out.println("\nStudents whose name starts with 'A':");
         students.stream()
-                .filter(student -> student.getName().toLowerCase().startsWith("a"))
+                .filter(student -> student.name().toLowerCase().startsWith("a"))
                 .forEach(System.out::println);
 
         System.out.println("\nStudents with a grade of 5 or higher:");
         students.stream()
-                .filter(student -> student.getGrade() >= 5)
+                .filter(student -> student.grade() >= 5)
                 .forEach(System.out::println);
 
         System.out.println("\nStudents with a grade of 5 or more and not from PHP:");
         students.stream()
-                .filter(student -> student.getGrade() >= 5)
-                .filter(student -> !student.getYear().equalsIgnoreCase("PHP"))
+                .filter(student -> student.grade() >= 5)
+                .filter(student -> !student.year().equalsIgnoreCase("PHP"))
                 .forEach(System.out::println);
 
         System.out.println("\nJAVA students who are of legal age:");
         students.stream()
-                .filter(student -> student.getYear().equalsIgnoreCase("JAVA"))
-                .filter(student -> student.getAge() >= 18)
+                .filter(student -> student.year().equalsIgnoreCase("JAVA"))
+                .filter(student -> student.age() >= 18)
                 .forEach(System.out::println);
     }
 }
