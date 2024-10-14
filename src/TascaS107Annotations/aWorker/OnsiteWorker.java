@@ -1,4 +1,4 @@
-package TascaS107Annotations.Worker;
+package TascaS107Annotations.aWorker;
 
 
 class OnsiteWorker extends Worker {

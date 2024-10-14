@@ -1,4 +1,4 @@
-package TascaS107Annotations.Worker;
+package TascaS107Annotations.bChildren;
 
 
 class Worker {
@@ -16,5 +16,6 @@ class Worker {
         return hoursWorked * pricePerHour;
     }
 }
+
 
 
