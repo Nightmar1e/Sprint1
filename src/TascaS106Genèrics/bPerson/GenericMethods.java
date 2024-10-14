@@ -1,4 +1,4 @@
-package TascaS106Genèrics.Person;
+package TascaS106Genèrics.bPerson;
 
 public class GenericMethods {
 
