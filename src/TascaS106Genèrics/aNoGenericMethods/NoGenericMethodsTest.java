@@ -1,4 +1,4 @@
-package TascaS106Genèrics.NoGenericMethods;
+package TascaS106Genèrics.aNoGenericMethods;
 
 public class NoGenericMethodsTest {
     public static void main(String[] args) {
