@@ -1,10 +1,10 @@
-package TascaS107Annotations.Children;
+package TascaS107Annotations.bChildren;
 
 public class Principal {
     @SuppressWarnings("deprecation")
     public static void main(String[] args) {
-        Worker presencialWorker = new TascaS107Annotations.Children.OnsiteWorker("Wa", "Li", 20);
-        Worker onlineWorker = new TascaS107Annotations.Children.OnlineWorker("Gha", "Di", 15);
+        Worker presencialWorker = new TascaS107Annotations.bChildren.OnsiteWorker("Wa", "Li", 20);
+        Worker onlineWorker = new TascaS107Annotations.bChildren.OnlineWorker("Gha", "Di", 15);
 
         int hoursWorked = 160;
 

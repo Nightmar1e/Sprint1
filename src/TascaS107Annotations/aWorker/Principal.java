@@ -1,4 +1,4 @@
-package TascaS107Annotations.Worker;
+package TascaS107Annotations.aWorker;
 
 public class Principal {
     public static void main(String[] args) {

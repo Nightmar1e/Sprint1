@@ -1,4 +1,4 @@
-package TascaS107Annotations.Children;
+package TascaS107Annotations.bChildren;
 
 class OnsiteWorker extends Worker {
     private static double benzina = 50.0;
