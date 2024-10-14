@@ -1,4 +1,4 @@
-package TascaS108Lambdas.CommaSeparated;
+package TascaS108Lambdas.jCommaSeparated;
 
 import java.util.ArrayList;
 import java.util.Arrays;

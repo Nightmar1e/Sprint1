@@ -1,4 +1,4 @@
-package TascaS108Lambdas.ListO5;
+package TascaS108Lambdas.bListO5;
 
 import java.util.List;
 import java.util.stream.Collectors;

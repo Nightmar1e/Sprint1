@@ -1,4 +1,4 @@
-package TascaS108Lambdas.Sort;
+package TascaS108Lambdas.fSort;
 
 
 import java.util.ArrayList;

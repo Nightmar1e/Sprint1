@@ -1,4 +1,4 @@
-package TascaS108Lambdas.Student;
+package TascaS108Lambdas.mStudent;
 
 import java.util.List;
 
