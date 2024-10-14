@@ -1,4 +1,4 @@
-package TascaS108Lambdas.GetPiValue;
+package TascaS108Lambdas.eGetPiValue;
 
 @FunctionalInterface
 interface PiValue {

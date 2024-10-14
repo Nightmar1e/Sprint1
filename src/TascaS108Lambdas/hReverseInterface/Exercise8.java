@@ -1,4 +1,4 @@
-package TascaS108Lambdas.ReverseInterface;
+package TascaS108Lambdas.hReverseInterface;
 
 @FunctionalInterface
 interface StringReverser {

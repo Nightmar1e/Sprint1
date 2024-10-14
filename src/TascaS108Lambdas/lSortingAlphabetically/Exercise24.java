@@ -1,8 +1,7 @@
-package TascaS108Lambdas.SortingAlphabetically;
+package TascaS108Lambdas.lSortingAlphabetically;
 
 import java.util.Comparator;
 import java.util.List;
-import java.util.stream.Collectors;
 
 public class Exercise24 {
 

@@ -1,4 +1,4 @@
-package TascaS108Lambdas.StartWithA;
+package TascaS108Lambdas.iStartWithA;
 
 import java.util.List;
 import java.util.stream.Collectors;

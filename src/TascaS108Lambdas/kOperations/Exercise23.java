@@ -1,4 +1,4 @@
-package TascaS108Lambdas.Operations;
+package TascaS108Lambdas.kOperations;
 
 import java.util.Scanner;
 

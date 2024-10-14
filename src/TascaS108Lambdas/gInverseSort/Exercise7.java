@@ -1,4 +1,4 @@
-package TascaS108Lambdas.InverseSort;
+package TascaS108Lambdas.gInverseSort;
 
 import java.util.ArrayList;
 import java.util.Comparator;
