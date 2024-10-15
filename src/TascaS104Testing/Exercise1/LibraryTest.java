@@ -1,4 +1,4 @@
-package TascaS104Testing.JUnit;
+package TascaS104Testing.Exercise1;
 
 import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;

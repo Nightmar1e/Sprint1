@@ -1,4 +1,4 @@
-package TascaS104Testing.JUnit;
+package TascaS104Testing.Exercise1;
 
 import java.util.ArrayList;
 import java.util.Collections;
