@@ -1,4 +1,4 @@
-package TascaS103JavaCollections.List;
+package TascaS103JavaCollections.Exercise2;
 
 import java.util.ArrayList;
 import java.util.List;

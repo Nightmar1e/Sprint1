@@ -1,4 +1,4 @@
-package TascaS103JavaCollections.FilterCSV;
+package TascaS103JavaCollections.Exercise5;
 
 import java.io.*;
 import java.util.*;

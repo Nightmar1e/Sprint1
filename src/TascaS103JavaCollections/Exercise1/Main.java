@@ -1,4 +1,4 @@
-package TascaS103JavaCollections.Month;
+package TascaS103JavaCollections.Exercise1;
 
 import java.util.ArrayList;
 import java.util.HashSet;
