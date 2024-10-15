@@ -1,4 +1,4 @@
-package TascaS102Exceptions.Producte;
+package TascaS102Exceptions.Exercise1;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,22 +1,10 @@
-package TascaS102Exceptions.Entrada;
-
-//import java.util.Scanner;
-//import java.util.InputMismatchException;
-//class Main {
-//    public static void main(String[] args) {
-//        Scanner myObj = new Scanner(System.in);
-//        System.out.println("Enter username");
-//
-//        String userName = myObj.nextLine();
-//        System.out.println("Username is: " + userName);
-//    }
-//}
+package TascaS102Exceptions.Exercise2;
 
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class Entrada {
+public class Entrance {
     private static Scanner scanner = new Scanner(System.in);
 
     public static byte readByte(String message) {
@@ -106,13 +94,13 @@ public class Entrada {
     }
 
     public static void main(String[] args) {
-        byte age = Entrada.readByte("Enter your age: ");
-        int year = Entrada.readInt("Enter your birth year: ");
-        float height = Entrada.readFloat("Enter your height: ");
-        double weight = Entrada.readDouble("Enter your weight: ");
-        char initial = Entrada.readChar("Enter your initial: ");
-        String name = Entrada.readString("Enter your name: ");
-        boolean accept = Entrada.readYesNo("Do you accept the terms?");
+        byte age = Entrance.readByte("Enter your age: ");
+        int year = Entrance.readInt("Enter your birth year: ");
+        float height = Entrance.readFloat("Enter your height: ");
+        double weight = Entrance.readDouble("Enter your weight: ");
+        char initial = Entrance.readChar("Enter your initial: ");
+        String name = Entrance.readString("Enter your name: ");
+        boolean accept = Entrance.readYesNo("Do you accept the terms?");
 
         System.out.println("Age: " + age);
         System.out.println("Birth year: " + year);
