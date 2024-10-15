@@ -1,4 +1,4 @@
-package TascaS103JavaCollections.Month;
+package TascaS103JavaCollections.Exercise1;
 
 public class Month {
     private String name;

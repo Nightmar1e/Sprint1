@@ -1,4 +1,4 @@
-package TascaS103JavaCollections.FilterCSV;
+package TascaS103JavaCollections.Exercise5;
 
 public class Person {
     private String name;

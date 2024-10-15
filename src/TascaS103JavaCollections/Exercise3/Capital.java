@@ -1,4 +1,4 @@
-package TascaS103JavaCollections.Capitals;
+package TascaS103JavaCollections.Exercise3;
 
 import java.io.*;
 import java.nio.file.Files;
