@@ -5,16 +5,6 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.BeforeEach;
 import java.util.List;
 
-//class BookTest {
-//    @Test
-//    void testBook() {
-//        Book book = new Book("The Lord of the Rings", "J.R.R. Tolkien", 1954);
-//        assertEquals("The Lord of the Rings", book.getTitle());
-//        assertEquals("J.R.R. Tolkien", book.getAuthor());
-//        assertEquals(1954, book.getYear());
-//    }
-//}
-
 
 class LibraryTest {
     private Library library;
